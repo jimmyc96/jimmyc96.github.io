@@ -2,122 +2,29 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## About Me
 
-[Link to another page](./another-page.html).
+I am Zihan Chen (陈子晗 in Chinese).  
+I received my Ph.D. degree under the Singapore University of Technology and Design (SUTD)-National University of Singapore (NUS) Joint Ph.D. Program in Sep. 2022, supervised by [Prof. Tony Q.S. Quek](https://people.sutd.edu.sg/~tonyquek/)(ISTD, SUTD), and [Prof. Haizhou Li](http://www.colips.org/~eleliha/) (ECE, NUS; CUHK SZ). I am co-supervised by [Prof. Kai Fong Ernest Chong](https://people.sutd.edu.sg/~ernest_chong/index.html) (ISTD, SUTD) and Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/) (ECE, NUS). I also worked with [Prof. Teng Joon Lim](https://scholar.google.com.sg/citations?user=dDQR5tIAAAAJ&hl=zh-CN) (FoE, USYD).  
+I received the B.Eng. degree in Communication Engineering from the University of Electronic Science and Technology of China (UESTC) in 2018.  
 
-There should be whitespace between paragraphs.
+My research interests mainly includes network intelligence, distributed machine learning and edge computing, especially in federated learning and its applications.  
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+[Link](./another-page.html).  
 
 
-### Definition lists can be used with HTML syntax.
+## Education
+**University of Electronic Science and Technology of China** (2014.9 - 2018.6)  
+- Bachelor's Degree of Engineering in Communication Engineering  
+- Yingcai Honors College  
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+**Singapore University of Technology and Design (SUTD)** and **National University of Singapore (NUS)** (2018.9 - 2022.12)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+- Joint Ph.D. Program
+- ISTD (SUTD) and ECE (NUS)
 
-```
-The final element.
-```
+
+## Experience
+**Visiting Student** (2022.1 - 2022.6)
+- ZJU-UIUC Institute, Zhejiang University
+- Hosted by Prof. Howard H. Yang
