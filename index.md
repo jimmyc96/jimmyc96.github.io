@@ -9,7 +9,7 @@ I am Zihan Chen (陈子晗 in Chinese).  I am a postdoctoral research fellow, wo
 I received my Ph.D. degree under the Singapore University of Technology and Design (SUTD)-National University of Singapore (NUS) Joint Ph.D. Program in Sep. 2022, supervised by [Prof. Tony Q.S. Quek](https://people.sutd.edu.sg/~tonyquek/) (ISTD, SUTD), and [Prof. Haizhou Li](http://www.colips.org/~eleliha/) (ECE, NUS; CUHK SZ). I am co-supervised by [Prof. Kai Fong Ernest Chong](https://people.sutd.edu.sg/~ernest_chong/index.html) (ISTD, SUTD) and Prof. [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/) (ECE, NUS). I also worked with [Prof. Teng Joon Lim](https://scholar.google.com.sg/citations?user=dDQR5tIAAAAJ&hl=zh-CN) (FoE, USYD).  
 I received the B.Eng. degree in Communication Engineering from the University of Electronic Science and Technology of China (UESTC) in 2018.  
 
-My research interests mainly includes machine learning and network intelligence. Currently, I am interested in federated learning, edge computing, and semantic communication.  
+My research interests mainly includes machine learning and network intelligence. Currently, I am interested in federated learning, edge computing, and semantic communication. You can reach me via zihan.chen96 AT gmail.com.
 
 [Link](./another-page.html).  
 
