@@ -12,52 +12,66 @@ I received the B.Eng. degree in Communication Engineering from the University of
 
 My research interests mainly include machine learning and network intelligence. Currently, I am interested in distributed machine learning, agentic AI, and AI-RAN. You can reach me via zihan.chen96 AT gmail.com.
 
-[Publication List](./another-page.html) · [中文](./zh.html)
+<div class="nav-buttons">
+  <a href="{{ '/another-page.html' | relative_url }}">📄 Publication List</a>
+  <a href="{{ '/zh.html' | relative_url }}">🌏 中文</a>
+</div>
 
 ---
 
 ## Education
 
-<img src="/assets/img/logos/uestc.png" alt="UESTC logo" height="50" align="left" hspace="12"/>
+<div class="entry">
+  <div class="entry-logos">
+    <img src="/assets/img/logos/uestc.png" alt="UESTC logo"/>
+  </div>
+  <div class="entry-body" markdown="1">
 
 **University of Electronic Science and Technology of China** (2014.9 – 2018.6)
 
 - Bachelor's Degree of Engineering in Communication Engineering
 - Yingcai Honors College
 
-<br clear="left"/>
+  </div>
+</div>
 
-<img src="/assets/img/logos/sutd.png" alt="SUTD logo" height="40" align="left" hspace="12"/>
-<img src="/assets/img/logos/nus.png" alt="NUS logo" height="40" align="left" hspace="12"/>
+<div class="entry">
+  <div class="entry-logos">
+    <img src="/assets/img/logos/sutd.png" alt="SUTD logo"/>
+    <img src="/assets/img/logos/nus.png" alt="NUS logo"/>
+  </div>
+  <div class="entry-body" markdown="1">
 
 **Singapore University of Technology and Design (SUTD)** and **National University of Singapore (NUS)** (2018.9 – 2022.12)
 
 - Joint Ph.D. Program
 - ISTD (SUTD) and ECE (NUS)
 
-<br clear="left"/>
+  </div>
+</div>
 
 ---
 
 ## Experience
 
-<img src="/assets/img/logos/sutd.png" alt="SUTD logo" height="40" align="left" hspace="12"/>
+<div class="entry">
+  <div class="entry-logos">
+    <img src="/assets/img/logos/sutd.png" alt="SUTD logo"/>
+  </div>
+  <div class="entry-body" markdown="1">
 
 **Postdoctoral Research Fellow** (2023.1 – Now)
 
 - Singapore University of Technology and Design
 - Working with [Prof. Tony Q.S. Quek](https://people.sutd.edu.sg/~tonyquek/)
 
-<br clear="left"/>
-
-<img src="/assets/img/logos/zju.png" alt="Zhejiang University logo" height="50" align="left" hspace="12"/>
+  </div>
+</div>
 
 **Visiting Student** (2022.1 – 2022.6)
 
 - ZJU-UIUC Institute, Zhejiang University
 - Hosted by Prof. Howard H. Yang
-
-<br clear="left"/>
 
 ---
 

@@ -1,0 +1,87 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Widen the content column and let it breathe on large screens */
+.wrapper {
+  max-width: 1200px;
+}
+
+header {
+  width: 240px;
+}
+
+section {
+  width: calc(100% - 280px);
+  margin-left: 280px;
+}
+
+/* Mobile: stack vertically as the theme already does, but ensure full width */
+@media print, screen and (max-width: 960px) {
+  header,
+  section {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Education / Experience entries with a logo on the left */
+.entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 1.2em 0;
+}
+
+.entry-logos {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.entry-logos img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.entry-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.entry-body > :first-child {
+  margin-top: 0;
+}
+
+.entry-body ul {
+  margin-top: 0.4em;
+}
+
+/* Pill-style buttons for sub-page navigation */
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1.5em 0;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid #267CB9;
+  border-radius: 6px;
+  color: #267CB9;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #267CB9;
+  color: #ffffff;
+  text-decoration: none;
+}
