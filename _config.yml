@@ -4,3 +4,7 @@ description: Welcome to my homepage.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true

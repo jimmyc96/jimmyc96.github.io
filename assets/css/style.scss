@@ -3,62 +3,82 @@
 
 @import "{{ site.theme }}";
 
-/* Widen the content column and let it breathe on large screens */
+/* Widen the content column — !important needed to beat the theme's shipped CSS */
 .wrapper {
-  max-width: 1200px;
+  max-width: 1280px !important;
+  width: auto !important;
 }
 
 header {
-  width: 240px;
+  width: 240px !important;
+  float: left;
 }
 
 section {
-  width: calc(100% - 280px);
-  margin-left: 280px;
+  width: calc(100% - 290px) !important;
+  margin-left: 290px !important;
+  float: none;
 }
 
-/* Mobile: stack vertically as the theme already does, but ensure full width */
 @media print, screen and (max-width: 960px) {
   header,
   section {
-    width: 100%;
-    margin-left: 0;
+    width: 100% !important;
+    margin-left: 0 !important;
+    float: none !important;
   }
 }
 
-/* Education / Experience entries with a logo on the left */
-.entry {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  margin: 1.2em 0;
+/* Education / Experience entry list — each entry is its own row */
+.entry-list {
+  display: block;
+  margin: 1em 0;
 }
 
-.entry-logos {
-  flex: 0 0 auto;
+.entry-list .entry {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  column-gap: 20px;
+  align-items: start;
+  margin: 0 0 1.6em 0;
+}
+
+.entry-list .entry-logos {
   display: flex;
   align-items: center;
   gap: 8px;
   padding-top: 4px;
 }
 
-.entry-logos img {
+.entry-list .entry-logos img {
   height: 40px;
   width: auto;
   display: block;
 }
 
-.entry-body {
-  flex: 1 1 auto;
+.entry-list .entry-body {
   min-width: 0;
 }
 
-.entry-body > :first-child {
-  margin-top: 0;
+.entry-list .entry-body p {
+  margin: 0 0 0.4em 0;
 }
 
-.entry-body ul {
-  margin-top: 0.4em;
+.entry-list .entry-body ul {
+  margin: 0.2em 0 0 0;
+  padding-left: 1.2em;
+}
+
+.entry-list .entry-body ul li {
+  margin: 0.1em 0;
+}
+
+.entry-list .entry.no-logo {
+  grid-template-columns: 140px 1fr;
+}
+
+.entry-list .entry.no-logo .entry-logos {
+  /* empty placeholder keeps text column aligned with logo entries */
 }
 
 /* Pill-style buttons for sub-page navigation */
