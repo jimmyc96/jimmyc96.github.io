@@ -45,8 +45,10 @@ section {
 
 .entry-list .entry-logos {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 12px;
   padding-top: 4px;
 }
 

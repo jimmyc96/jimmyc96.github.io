@@ -44,6 +44,8 @@ My research interests mainly include machine learning and network intelligence. 
 <ul>
 <li>Joint Ph.D. Program</li>
 <li>ISTD (SUTD) and ECE (NUS)</li>
+<li>Doctor of Philosophy (Ph.D.) in Engineering</li>
+<li>Thesis: <em>Your Thesis Title Here</em></li>
 </ul>
 </div>
 </div>
