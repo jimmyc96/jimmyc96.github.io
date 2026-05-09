@@ -73,14 +73,6 @@ section {
   margin: 0.1em 0;
 }
 
-.entry-list .entry.no-logo {
-  grid-template-columns: 140px 1fr;
-}
-
-.entry-list .entry.no-logo .entry-logos {
-  /* empty placeholder keeps text column aligned with logo entries */
-}
-
 /* Pill-style buttons for sub-page navigation */
 .nav-buttons {
   display: flex;
