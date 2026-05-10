@@ -1,7 +1,12 @@
 title: Zihan Chen
 logo: /assets/img/zihan.jpg
-description: Welcome to my homepage.
+description: Postdoctoral Research Fellow, SUTD
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 markdown: kramdown
+
+social:
+  github: https://github.com/jimmyc96
+  linkedin: https://www.linkedin.com/in/zihan-chen-961217144/
+  google_scholar: https://scholar.google.com.sg/citations?user=jNBfaCcAAAAJ

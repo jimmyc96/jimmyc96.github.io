@@ -29,6 +29,33 @@ section {
   }
 }
 
+/* Sidebar social links */
+.sidebar-social {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-social a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #267CB9;
+  font-size: 0.88em;
+  text-decoration: none;
+}
+
+.sidebar-social a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-social a img {
+  height: 1em;
+  width: auto;
+  flex-shrink: 0;
+}
+
 /* Education / Experience entry list — each entry is its own row */
 .entry-list {
   display: block;

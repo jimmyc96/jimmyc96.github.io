@@ -13,8 +13,6 @@ I received the B.Eng. degree in Communication Engineering from the University of
 My research interests mainly include machine learning and network intelligence. Currently, I am interested in distributed machine learning, agentic AI, and AI-RAN. You can reach me via zihan.chen96 AT gmail.com.
 
 <div class="nav-buttons">
-<a href="https://www.linkedin.com/in/zihan-chen-961217144/" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/linkedin.svg' | relative_url }}" alt="LinkedIn" class="btn-icon"/> LinkedIn</a>
-<a href="https://scholar.google.com.sg/citations?user=jNBfaCcAAAAJ" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/google-scholar.svg' | relative_url }}" alt="Google Scholar" class="btn-icon"/> Google Scholar</a>
 <a href="{{ '/pub_list.html' | relative_url }}">📄 Publication List</a>
 <a href="{{ '/activities.html' | relative_url }}"><img src="{{ '/assets/img/logos/activities.svg' | relative_url }}" alt="Activities" class="btn-icon"/> Activities</a>
 <a href="{{ '/zh.html' | relative_url }}"><img src="{{ '/assets/img/logos/zh.svg' | relative_url }}" alt="中" class="btn-icon"/> 中文</a>
