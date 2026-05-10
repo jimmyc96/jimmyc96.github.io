@@ -99,3 +99,29 @@ section {
   color: #ffffff;
   text-decoration: none;
 }
+
+.nav-buttons a img.btn-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: -0.1em;
+  margin-right: 5px;
+}
+
+.nav-buttons a:hover img.btn-icon {
+  filter: brightness(0) invert(1);
+}
+
+.site-footer {
+  font-size: 0.85em;
+  color: #888;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.site-footer a {
+  color: #888;
+}
+
+.site-footer a:hover {
+  color: #267CB9;
+}
