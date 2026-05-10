@@ -15,7 +15,8 @@ My research interests mainly include machine learning and network intelligence. 
 <div class="nav-buttons">
 <a href="https://www.linkedin.com/in/zihan-chen-961217144/" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/linkedin.svg' | relative_url }}" alt="LinkedIn" class="btn-icon"/> LinkedIn</a>
 <a href="https://scholar.google.com.sg/citations?user=jNBfaCcAAAAJ" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/google-scholar.svg' | relative_url }}" alt="Google Scholar" class="btn-icon"/> Google Scholar</a>
-<a href="{{ '/another-page.html' | relative_url }}">📄 Publication List</a>
+<a href="{{ '/pub_list.html' | relative_url }}">📄 Publication List</a>
+<a href="{{ '/activities.html' | relative_url }}"><img src="{{ '/assets/img/logos/activities.svg' | relative_url }}" alt="Activities" class="btn-icon"/> Activities</a>
 <a href="{{ '/zh.html' | relative_url }}"><img src="{{ '/assets/img/logos/zh.svg' | relative_url }}" alt="中" class="btn-icon"/> 中文</a>
 </div>
 
@@ -45,9 +46,9 @@ My research interests mainly include machine learning and network intelligence. 
 <div class="entry-body">
 <p><strong>Singapore University of Technology and Design (SUTD)</strong> and <strong>National University of Singapore (NUS)</strong> (2018.9 – 2022.12)</p>
 <ul>
-<li>Joint Ph.D. Program</li>
-<li>ISTD (SUTD) and ECE (NUS)</li>
+<li>SUTD-NUS Joint Ph.D. Program</li>
 <li>Doctor of Philosophy (Ph.D.) in Electrical and Computer Engineering</li>
+<li>ISTD (SUTD) and ECE (NUS)</li>
 <li>Thesis: <em>Adaptive Communication-Efficient Federated Learning on Real-World Data</em></li>
 </ul>
 </div>
