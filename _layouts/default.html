@@ -23,15 +23,21 @@
 
         <p>{{ site.position }}<br/>{{ site.affiliation }}</p>
 
-        <div class="social-links">
+        <div class="sidebar-social">
           {% if site.social.github %}
-          <a href="{{ site.social.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="{{ site.social.github }}" target="_blank" rel="noopener">
+            <img src="{{ '/assets/img/logos/github.svg' | relative_url }}" alt=""/> GitHub
+          </a>
           {% endif %}
           {% if site.social.linkedin %}
-          <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener">
+            <img src="{{ '/assets/img/logos/linkedin.svg' | relative_url }}" alt=""/> LinkedIn
+          </a>
           {% endif %}
           {% if site.social.google_scholar %}
-          <a href="{{ site.social.google_scholar }}" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+          <a href="{{ site.social.google_scholar }}" target="_blank" rel="noopener">
+            <img src="{{ '/assets/img/logos/google-scholar.svg' | relative_url }}" alt=""/> Google Scholar
+          </a>
           {% endif %}
         </div>
       </header>
