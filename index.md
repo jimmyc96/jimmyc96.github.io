@@ -14,6 +14,8 @@ My research interests mainly include machine learning and network intelligence. 
 
 <div class="nav-buttons">
 <a href="{{ '/another-page.html' | relative_url }}">📄 Publication List</a>
+<a href="https://scholar.google.com.sg/citations?user=jNBfaCcAAAAJ" target="_blank" rel="noopener">🎓 Google Scholar</a>
+<a href="https://www.linkedin.com/in/zihan-chen-961217144/" target="_blank" rel="noopener">💼 LinkedIn</a>
 <a href="{{ '/zh.html' | relative_url }}">🌏 中文</a>
 </div>
 
