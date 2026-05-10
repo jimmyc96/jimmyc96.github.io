@@ -30,30 +30,34 @@ section {
 }
 
 /* Sidebar social links */
-.sidebar-social {
-  margin-top: 1em;
+.social-links {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
+  margin-top: 0.5em;
 }
 
-.sidebar-social a {
-  display: flex;
+.social-links a {
+  display: inline-flex;
   align-items: center;
-  gap: 7px;
-  color: #267CB9;
-  font-size: 0.88em;
+  gap: 8px;
   text-decoration: none;
+  font-size: 14px;
 }
 
-.sidebar-social a:hover {
+.social-links a:hover {
   text-decoration: underline;
 }
 
-.sidebar-social a img {
-  height: 1em;
-  width: auto;
-  flex-shrink: 0;
+.social-links i {
+  width: 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.social-links a:hover i {
+  color: #267CB9;
 }
 
 /* Education / Experience entry list — each entry is its own row */
